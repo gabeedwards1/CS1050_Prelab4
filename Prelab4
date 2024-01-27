@@ -1,0 +1,36 @@
+/*For the prelab assignment, you may not use the if statement, the if/else, nor the while statement.
+The goal of the prelab is to print out all integers from 1 through 10 as words. For example, if the integer
+is 1, you should print “one”. If the integer is 2, you should print “two”. Do not “hard code” things (i.e.,
+don’t just print “one two three four five six seven eight nine ten” but instead loop through all the
+integers. You may use a for loop or a do/while loop to accomplish this. Inside your loop, you will need
+some way to decide what to print based on the value of the current integer. To accomplish this part,
+consider using a switch or the ternary operator.*/
+
+#include <stdio.h>
+int main()
+{
+    for(int i = 1; i <= 10; i++){
+        switch(i){
+            case 1: printf("one ");
+            break;
+            case 2: printf("two ");
+            break;
+            case 3: printf("three ");
+            break;
+            case 4: printf("four ");
+            break;
+            case 5: printf("five ");
+            break;
+            case 6: printf("six ");
+            break;
+            case 7: printf("seven ");
+            break;
+            case 8: printf("eight ");
+            break;
+            case 9: printf("nine ");
+            break;
+            case 10: printf("ten ");
+            break;
+        }
+    }
+}
